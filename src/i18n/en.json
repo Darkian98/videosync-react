@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Official Tickets of the Real Alcazar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Select the day and time",
+    "ENTRYYOUWANT": "In which you want your tickets"
+  },
+  "STEPACTION": {
+    "BACK": "Return",
+    "CONTINUE": "Continue",
+    "FINISH": "Finish"
+  },
+  "STEPONE": {
+    "OOPS": "Exhausted for today. ",
+    "WHATTIME": "WHAT TIME?",
+    "SELECTDATE": "Select date",
+    "DAY": "Day",
+    "TICKETS": "Tickets",
+    "PAY": "Pay",
+    "SELECTFIRST": "Select a first date",
+    "THISDAY": "For this day,",
+    "VENTAS": "7500 tickets for sale",
+    "LEFT": "We have left",
+    "MENOS": "less than",
+    "NEXTHOUR": "in the following hours.",
+    "YOUWANT": "If you want tickets for this day, you have"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Official Entry Ticket",
+    "Y": "and",
+    "TYPEENTRY": "Select the type of tickets",
+    "TICKETS": "Tickets"
+  },
+  "SUMMARY": {
+    "ORDER": "Summary of your order",
+    "TOTAL": "Total",
+    "VATINCLUDED": "VAT included",
+    "INCLUDES": "Includes:",
+    "VISITORMAP": "Visiting plan",
+    "AUDIOGUIA": "Professional Audio Guide",
+    "ROUTES": "Exclusive routes"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Basic Ticket – Entry Only",
+    "PREFERREDADULTCOMPLETE": "Full Fast Track Access",
+    "PREFERREDADULTSIMPLE": "Fast Track Access – No Walk Tour",
+    "COMPLETEADULT": "Full adult",
+    "SENIORPREMIUM": "Official Senior Ticket + Official Audio Guide",
+    "SENIOR": "Senior",
+    "STUDENT": "Student Ticket (EU ID Required)",
+    "CHILDREN": "Children"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "+65 years EU",
+    "CHILDREN": "-12 years"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Everything from Basic Entry plus:",
+    "PREFERENTSIMPLEANDMORE": "Everything from Simple Preferential Entry plus:"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Skip-the-line Access to the Royal Alcázar",
+    "COMPLETEMAP": "Full Visit Map of the Alcázar",
+    "SPPFORWSP": "WhatsApp Support for Questions",
+    "DWLFORMOBILE": "Instant Mobile Download or Printable Ticket",
+    "WALKTOUR": "8 COOL WALKTOURS to explore Seville at your own pace",
+    "AUDIO&MAPS": "Audio & Maps of Seville’s most authentic neighborhoods",
+    "QUEUEDACCESS": "Skip-the-line Access to the Royal Alcázar",
+    "AUDIO": "Official Audio Guide (9 languages)",
+    "MAP": "Visit map (PDF format)",
+    "ROUTES": "8 exclusive routes of Seville"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Tickets for Reaczar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Paid",
+    "ALREADYPAID": "You bought the tickets",
+    "COMPLETEINFORMATION": "We need some data to complete the process and send you the tickets.",
+    "ENTERINFORMATION": "Now enter the straight data of each of the visitors",
+    "WARNING": "Remember that each visitor carries the identity document, because they will be asked at the entrance of the Royal Alcazar of Seville."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "Do you need help with your reservation?",
+    "EMAIL": "By email",
+    "PHONE": "By phone",
+    "HOURS": "Schedule"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Send your data to complete your purchase"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Mandatory name",
+    "SURNAME": "Mandatory surnames",
+    "DNI": "Mandatory document",
+    "BIRTHDAY": "Date of mandatory birth",
+    "COUNTRY": "Mandatory country"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Visitor",
+    "NAME": "Name",
+    "SURNAME": "Surname",
+    "DNI": "DNI",
+    "BIRTHDAY": "Birthdate",
+    "COUNTRY": "Country",
+    "ADVICEDNI": "It can be passport number, DNI, NIE or a document that accredits. "
+  },
+  "OVERLAY": {
+    "LOADING": "Loading available tickets..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Full adult",
+    "TICKETMANY": "How many tickets?"
+  }
+}

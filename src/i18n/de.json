@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Offizielle Eintrittskarten für den Real Alcázar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Wählen Sie Tag und Uhrzeit",
+    "ENTRYYOUWANT": "An dem Sie Ihre Eintrittskarten möchten"
+  },
+  "STEPACTION": {
+    "BACK": "Zurück",
+    "CONTINUE": "Weiter",
+    "FINISH": "Abschließen"
+  },
+  "STEPONE": {
+    "OOPS": "Für heute ausverkauft. Bitte wählen Sie einen anderen Besuchstag.",
+    "WHATTIME": "UM WIE VIEL UHR?",
+    "SELECTDATE": "DATUM AUSWÄHLEN",
+    "DAY": "Tag",
+    "TICKETS": "Eintrittskarten",
+    "PAY": "Bezahlen",
+    "SELECTFIRST": "Bitte wählen Sie zuerst ein Datum",
+    "THISDAY": "Für diesen Tag, ab",
+    "VENTAS": "7500 Tickets im Verkauf",
+    "LEFT": "verbleiben noch",
+    "MENOS": "weniger als",
+    "NEXTHOUR": "in den folgenden Stunden.",
+    "YOUWANT": "Wenn Sie für diesen Tag Eintrittskarten möchten, stehen Ihnen zur Verfügung"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Offizieller Eintritt",
+    "Y": "und",
+    "TYPEENTRY": "Wählen Sie die Art der Eintrittskarten",
+    "TICKETS": "Eintrittskarten"
+  },
+  "SUMMARY": {
+    "ORDER": "Ihre Bestellübersicht",
+    "TOTAL": "Gesamt",
+    "VATINCLUDED": "MwSt. inbegriffen",
+    "INCLUDES": "Enthält:",
+    "VISITORMAP": "Besucherkarte",
+    "AUDIOGUIA": "Professionelle Audioguide",
+    "ROUTES": "Exklusive Routen"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Basiseintritt – Nur Zugang",
+    "PREFERREDADULTCOMPLETE": "Bevorzugter Eintritt Komplett",
+    "PREFERREDADULTSIMPLE": "Bevorzugter Eintritt Einfach",
+    "COMPLETEADULT": "Erwachsener Komplett",
+    "SENIORPREMIUM": "Senior Eintritt + Premium Audioguide",
+    "SENIOR": "Senior",
+    "STUDENT": "Student EU (mit Ausweis)",
+    "CHILDREN": "Kinder"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "Über 65 Jahre EU",
+    "CHILDREN": "Unter 12 Jahre"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Alles aus dem Basiseintritt plus:",
+    "PREFERENTSIMPLEANDMORE": "Alles aus dem Einfachen Vorzugseintritt plus:"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Bevorzugter Zugang ohne Warteschlange zum Real Alcázar",
+    "COMPLETEMAP": "Komplettkarte Real Alcázar",
+    "SPPFORWSP": "Support über WhatsApp bei Fragen",
+    "DWLFORMOBILE": "Sofortiger Download aufs Handy oder Ausdruck",
+    "WALKTOUR": "8 COOL WALKTOUR, um Sevilla in Ihrem eigenen Tempo zu entdecken",
+    "AUDIO&MAPS": "Audio und Karten der WalkTour durch die authentischsten Viertel von Sevilla",
+    "QUEUEDACCESS": "Zugang ohne Warteschlange zum Real Alcázar",
+    "AUDIO": "Offizieller Audioguide (9 Sprachen)",
+    "MAP": "Besucherkarte",
+    "ROUTES": "8 exklusive Routen durch Sevilla"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Eintrittskarten für den Real Alcázar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Bezahlt",
+    "ALREADYPAID": "Sie haben die Tickets bereits gekauft",
+    "COMPLETEINFORMATION": "Wir benötigen einige Informationen, um den Vorgang abzuschließen und Ihnen die Tickets zuzusenden.",
+    "ENTERINFORMATION": "Bitte geben Sie jetzt die korrekten Daten für jeden Besucher ein",
+    "WARNING": "Denken Sie daran, dass jeder Besucher seinen Ausweis mitführen muss, da dieser am Eingang des Real Alcázar von Sevilla verlangt wird."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "Brauchen Sie Hilfe bei Ihrer Reservierung?",
+    "EMAIL": "Per E-Mail",
+    "PHONE": "Telefonisch",
+    "HOURS": "Öffnungszeiten"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Senden Sie Ihre Daten, um den Kauf abzuschließen"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Vorname erforderlich",
+    "SURNAME": "Nachname erforderlich",
+    "DNI": "Dokument erforderlich",
+    "BIRTHDAY": "Geburtsdatum erforderlich",
+    "COUNTRY": "Land erforderlich"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Besucher",
+    "NAME": "Vorname",
+    "SURNAME": "Nachname",
+    "DNI": "Ausweisnummer",
+    "BIRTHDAY": "Geburtsdatum",
+    "COUNTRY": "Land",
+    "ADVICEDNI": "Kann Passnummer, Personalausweis, Aufenthaltskarte oder ein anderes Ausweisdokument sein. Bitte mitbringen, da es am Eingang verlangt wird."
+  },
+  "OVERLAY": {
+    "LOADING": "Verfügbare Tickets werden geladen..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Erwachsener Komplett",
+    "TICKETMANY": "Wie viele Tickets?"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Officiële tickets voor het Real Alcázar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Selecteer de dag en tijd",
+    "ENTRYYOUWANT": "Voor wanneer je je tickets wilt"
+  },
+  "STEPACTION": {
+    "BACK": "Terug",
+    "CONTINUE": "Doorgaan",
+    "FINISH": "Voltooien"
+  },
+  "STEPONE": {
+    "OOPS": "Uitverkocht voor vandaag. Kies een andere bezoekdag.",
+    "WHATTIME": "HOE LAAT?",
+    "SELECTDATE": "SELECTEER DATUM",
+    "DAY": "Dag",
+    "TICKETS": "Tickets",
+    "PAY": "Betalen",
+    "SELECTFIRST": "Selecteer eerst een datum",
+    "THISDAY": "Voor deze dag, vanaf",
+    "VENTAS": "7500 tickets beschikbaar",
+    "LEFT": "er zijn nog",
+    "MENOS": "minder dan",
+    "NEXTHOUR": "in de volgende uren.",
+    "YOUWANT": "Als je tickets wilt voor deze dag, zijn er"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Officieel ticket",
+    "Y": "en",
+    "TYPEENTRY": "Selecteer het type ticket",
+    "TICKETS": "Tickets"
+  },
+  "SUMMARY": {
+    "ORDER": "Samenvatting van je bestelling",
+    "TOTAL": "Totaal",
+    "VATINCLUDED": "Inclusief btw",
+    "INCLUDES": "Inclusief:",
+    "VISITORMAP": "Bezoekersplattegrond",
+    "AUDIOGUIA": "Professionele audiogids",
+    "ROUTES": "Exclusieve routes"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Basis Ticket – Alleen toegang",
+    "PREFERREDADULTCOMPLETE": "Voorkeurticket Compleet",
+    "PREFERREDADULTSIMPLE": "Voorkeurticket Simpel",
+    "COMPLETEADULT": "Volwassene compleet",
+    "SENIORPREMIUM": "Senior Ticket + Premium Audiogids",
+    "SENIOR": "Senior",
+    "STUDENT": "Student EU (met ID)",
+    "CHILDREN": "Kinderen"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "65+ jaar EU",
+    "CHILDREN": "jonger dan 12 jaar"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Alles van de Basis Toegang plus:",
+    "PREFERENTSIMPLEANDMORE": "Alles van de Eenvoudige Voorkeurstoegang plus:"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Voorrangstoegang zonder wachtrij tot het Real Alcázar",
+    "COMPLETEMAP": "Volledige plattegrond Real Alcázar",
+    "SPPFORWSP": "WhatsApp ondersteuning voor vragen",
+    "DWLFORMOBILE": "Directe download op mobiel of afdrukken",
+    "WALKTOUR": "8 COOLE WANDELTOCHTEN om Sevilla op eigen tempo te ontdekken",
+    "AUDIO&MAPS": "Audio en kaarten van de wandelroutes in de authentiekste wijken van Sevilla",
+    "QUEUEDACCESS": "Toegang zonder wachtrij tot het Real Alcázar",
+    "AUDIO": "Officiële audiogids (9 talen)",
+    "MAP": "Bezoekersplattegrond",
+    "ROUTES": "8 exclusieve routes in Sevilla"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Tickets voor het Real Alcázar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Betaald",
+    "ALREADYPAID": "Je hebt de tickets al gekocht",
+    "COMPLETEINFORMATION": "We hebben wat gegevens nodig om het proces te voltooien en je tickets toe te sturen.",
+    "ENTERINFORMATION": "Vul nu de correcte gegevens in van elke bezoeker",
+    "WARNING": "Vergeet niet dat elke bezoeker een identiteitsbewijs moet meenemen, omdat dit vereist is bij de ingang van het Real Alcázar van Sevilla."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "Hulp nodig bij je reservering?",
+    "EMAIL": "Via e-mail",
+    "PHONE": "Telefonisch",
+    "HOURS": "Openingstijden"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Verzend je gegevens om je aankoop te voltooien"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Naam is verplicht",
+    "SURNAME": "Achternaam is verplicht",
+    "DNI": "Document is verplicht",
+    "BIRTHDAY": "Geboortedatum is verplicht",
+    "COUNTRY": "Land is verplicht"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Bezoeker",
+    "NAME": "Naam",
+    "SURNAME": "Achternaam",
+    "DNI": "ID-nummer",
+    "BIRTHDAY": "Geboortedatum",
+    "COUNTRY": "Land",
+    "ADVICEDNI": "Kan een paspoort, ID-kaart, NIE of ander officieel document zijn. Neem het mee, het wordt gevraagd bij de ingang."
+  },
+  "OVERLAY": {
+    "LOADING": "Beschikbare tickets laden..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Volwassene compleet",
+    "TICKETMANY": "Hoeveel tickets?"
+  }
+}

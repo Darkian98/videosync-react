@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Biglietti ufficiali per il Real Alcázar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Seleziona giorno e ora",
+    "ENTRYYOUWANT": "Nel quale desideri i tuoi biglietti"
+  },
+  "STEPACTION": {
+    "BACK": "Indietro",
+    "CONTINUE": "Continua",
+    "FINISH": "Concludi"
+  },
+  "STEPONE": {
+    "OOPS": "Esauriti per oggi. Seleziona un altro giorno di visita.",
+    "WHATTIME": "A CHE ORA?",
+    "SELECTDATE": "SELEZIONA UNA DATA",
+    "DAY": "Giorno",
+    "TICKETS": "Biglietti",
+    "PAY": "Paga",
+    "SELECTFIRST": "Seleziona prima una data",
+    "THISDAY": "Per questo giorno, dalle",
+    "VENTAS": "7500 biglietti in vendita",
+    "LEFT": "ne restano",
+    "MENOS": "meno di",
+    "NEXTHOUR": "nelle ore successive.",
+    "YOUWANT": "Se desideri i biglietti per questo giorno, hai a disposizione"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Biglietto ufficiale",
+    "Y": "e",
+    "TYPEENTRY": "Seleziona il tipo di biglietto",
+    "TICKETS": "Biglietti"
+  },
+  "SUMMARY": {
+    "ORDER": "Riepilogo del tuo ordine",
+    "TOTAL": "Totale",
+    "VATINCLUDED": "IVA inclusa",
+    "INCLUDES": "Include:",
+    "VISITORMAP": "Mappa di visita",
+    "AUDIOGUIA": "Audioguida professionale",
+    "ROUTES": "Percorsi esclusivi"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Biglietto base – Solo accesso",
+    "PREFERREDADULTCOMPLETE": "Biglietto preferenziale completo",
+    "PREFERREDADULTSIMPLE": "Biglietto preferenziale semplice",
+    "COMPLETEADULT": "Adulto completo",
+    "SENIORPREMIUM": "Biglietto senior + Audioguida Premium",
+    "SENIOR": "Senior",
+    "STUDENT": "Studente UE (con documento)",
+    "CHILDREN": "Bambini"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "+65 anni UE",
+    "CHILDREN": "-12 anni"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Tutto ciò che è incluso nell'ingresso base, più:",
+    "PREFERENTSIMPLEANDMORE": "Tutto ciò che è incluso nell'ingresso preferenziale semplice, più:"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Accesso preferenziale senza coda al Real Alcázar",
+    "COMPLETEMAP": "Mappa completa del Real Alcázar",
+    "SPPFORWSP": "Supporto via WhatsApp per domande",
+    "DWLFORMOBILE": "Download immediato su cellulare o stampa",
+    "WALKTOUR": "8 COOL WALKTOUR per scoprire Siviglia al tuo ritmo",
+    "AUDIO&MAPS": "Audio e mappe dei WalkTour nei quartieri più autentici di Siviglia",
+    "QUEUEDACCESS": "Accesso senza coda al Real Alcázar",
+    "AUDIO": "Audioguida ufficiale (9 lingue)",
+    "MAP": "Mappa di visita",
+    "ROUTES": "8 percorsi esclusivi di Siviglia"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Biglietti per il Real Alcázar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Pagato",
+    "ALREADYPAID": "Hai già acquistato i biglietti",
+    "COMPLETEINFORMATION": "Abbiamo bisogno di alcuni dati per completare il processo e inviarti i biglietti.",
+    "ENTERINFORMATION": "Inserisci ora i dati corretti di ogni visitatore",
+    "WARNING": "Ricorda che ogni visitatore deve portare con sé un documento d'identità, poiché verrà richiesto all'ingresso del Real Alcázar di Siviglia."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "Hai bisogno di aiuto con la tua prenotazione?",
+    "EMAIL": "Via e-mail",
+    "PHONE": "Per telefono",
+    "HOURS": "Orario"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Invia i tuoi dati per completare l'acquisto"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Nome obbligatorio",
+    "SURNAME": "Cognome obbligatorio",
+    "DNI": "Documento obbligatorio",
+    "BIRTHDAY": "Data di nascita obbligatoria",
+    "COUNTRY": "Paese obbligatorio"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Visitatore",
+    "NAME": "Nome",
+    "SURNAME": "Cognome",
+    "DNI": "Documento",
+    "BIRTHDAY": "Data di nascita",
+    "COUNTRY": "Paese",
+    "ADVICEDNI": "Può essere passaporto, carta d'identità, NIE o un altro documento valido. Portalo con te, verrà richiesto all'ingresso."
+  },
+  "OVERLAY": {
+    "LOADING": "Caricamento dei biglietti disponibili..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Adulto completo",
+    "TICKETMANY": "Quanti biglietti?"
+  }
+}

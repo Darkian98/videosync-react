@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Entradas Oficiales del Real Alcazar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Seleccione el día y hora",
+    "ENTRYYOUWANT": "En el que quieres tus entradas"
+  },
+  "STEPACTION": {
+    "BACK": "Volver",
+    "CONTINUE": "Continuar",
+    "FINISH": "Finalizar"
+  },
+  "STEPONE": {
+    "OOPS": "Agotadas para el día de hoy. Seleccione otro día de visita.",
+    "WHATTIME": "¿A QUÉ HORA?",
+    "SELECTDATE": "SELECCIONA FECHA",
+    "DAY": "Día",
+    "TICKETS": "Entradas",
+    "PAY": "Pagar",
+    "SELECTFIRST": "Seleccione una fecha primero",
+    "THISDAY": "Para este día, de las",
+    "VENTAS": "7500 entradas a la venta",
+    "LEFT": "nos quedan",
+    "MENOS": "menos que",
+    "NEXTHOUR": "en las siguientes horas.",
+    "YOUWANT": "Si deseas entradas para este día, dispones de"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Entrada Oficial",
+    "Y": "y",
+    "TYPEENTRY": "Seleccione el tipo de entradas",
+    "TICKETS": "Entradas"
+  },
+  "SUMMARY": {
+    "ORDER": "Resumen de su pedido",
+    "TOTAL": "Total",
+    "VATINCLUDED": "IVA incluido",
+    "INCLUDES": "Incluye:",
+    "VISITORMAP": "Plano de visita",
+    "AUDIOGUIA": "Guía de audio profesional",
+    "ROUTES": "Rutas exclusivas"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Entrada Básica – Solo acceso",
+    "PREFERREDADULTCOMPLETE": "Entrada Preferente Completa",
+    "PREFERREDADULTSIMPLE": "Entrada Preferente Simple",
+    "COMPLETEADULT": "Adulto completo",
+    "SENIORPREMIUM": "Entrada Senior Oficial + Audioguía Premium",
+    "SENIOR": "Sénior",
+    "STUDENT": "Estudiante EU (Identificado)",
+    "CHILDREN": "Niños"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "+65 años EU",
+    "CHILDREN": "-12 años"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Todo lo de Entrada Básica más:",
+    "PREFERENTSIMPLEANDMORE": "Todo lo de Entrada Preferente Simple más:"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Acceso Preferente sin colas al Real Alcázar",
+    "COMPLETEMAP": "Plano completo Real Alcázar",
+    "SPPFORWSP": "Soporte por Whatsapp para dudas",
+    "DWLFORMOBILE": "Descarga inmediata al móvil o imprimir",
+    "WALKTOUR": "8 COOL WALKTOUR para descubrir Sevilla paseando a tu ritmo",
+    "AUDIO&MAPS": "Audio y Mapas de los WalkTour por los barrios más auténticos de Sevilla",
+    "QUEUEDACCESS": "Acceso sin colas al Real Alcázar",
+    "AUDIO": "Audioguía Oficial (9 idiomas)",
+    "MAP": "Plano de Visita",
+    "ROUTES": "8 rutas exclusivas de Sevilla"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Entradas para Reál Alcazar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Pagado",
+    "ALREADYPAID": "Ya compraste los boletos",
+    "COMPLETEINFORMATION": "Necesitamos unos datos para completar el proceso y enviarte las entradas.",
+    "ENTERINFORMATION": "Introduce ahora los datos correctos de cada uno de los visitantes",
+    "WARNING": "Recuerda que cada visitante lleva consigo el documento de identidad, porque se lo pedirán en la entrada del Real Alcazar de Sevilla."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "¿Necesita ayuda con su reserva?",
+    "EMAIL": "Por correo electrónico",
+    "PHONE": "Por teléfono",
+    "HOURS": "Horario"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Envíe sus datos para completar su compra"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Nombre obligatorio",
+    "SURNAME": "Apellidos obligatorios",
+    "DNI": "Documento obligatorio",
+    "BIRTHDAY": "Fecha de nacimiento obligatoria",
+    "COUNTRY": "País Obligatoria"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Visitante",
+    "NAME": "Nombre",
+    "SURNAME": "Apellidos",
+    "DNI": "DNI",
+    "BIRTHDAY": "Fecha de nacimiento",
+    "COUNTRY": "País",
+    "ADVICEDNI": "Puede ser nº de pasaporte, DNI, NIE o un documento que acredite. Llévalo, te lo pedirán en la entrada."
+  },
+  "OVERLAY": {
+    "LOADING": "Cargando entradas disponibles..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Adulto completo",
+    "TICKETMANY": "¿Cuántos boletos?"
+  }
+}

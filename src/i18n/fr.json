@@ -1,0 +1,114 @@
+{
+  "PAGETITLE": "Billets officiels pour le Real Alcazar",
+  "CHECKOUT": {
+    "SELECTDAYHOUR": "Sélectionnez le jour et l'heure",
+    "ENTRYYOUWANT": "À laquelle vous souhaitez vos billets"
+  },
+  "STEPACTION": {
+    "BACK": "Retour",
+    "CONTINUE": "Continuer",
+    "FINISH": "Terminer"
+  },
+  "STEPONE": {
+    "OOPS": "Épuisé pour aujourd'hui. Veuillez sélectionner un autre jour de visite.",
+    "WHATTIME": "À QUELLE HEURE ?",
+    "SELECTDATE": "SÉLECTIONNER UNE DATE",
+    "DAY": "Jour",
+    "TICKETS": "Billets",
+    "PAY": "Payer",
+    "SELECTFIRST": "Veuillez d'abord sélectionner une date",
+    "THISDAY": "Pour ce jour, à partir de",
+    "VENTAS": "7500 billets en vente",
+    "LEFT": "il en reste",
+    "MENOS": "moins de",
+    "NEXTHOUR": "dans les heures suivantes.",
+    "YOUWANT": "Si vous souhaitez des billets pour ce jour, vous avez"
+  },
+  "STEPTWO": {
+    "OFICIAL": "Billet officiel",
+    "Y": "et",
+    "TYPEENTRY": "Sélectionnez le type de billets",
+    "TICKETS": "Billets"
+  },
+  "SUMMARY": {
+    "ORDER": "Résumé de votre commande",
+    "TOTAL": "Total",
+    "VATINCLUDED": "TVA incluse",
+    "INCLUDES": "Comprend :",
+    "VISITORMAP": "Plan de visite",
+    "AUDIOGUIA": "Audioguide professionnel",
+    "ROUTES": "Itinéraires exclusifs"
+  },
+  "PACKAGES": {
+    "BASICADULT": "Billet de base – Accès simple",
+    "PREFERREDADULTCOMPLETE": "Billet préférentiel complet",
+    "PREFERREDADULTSIMPLE": "Billet préférentiel simple",
+    "COMPLETEADULT": "Adulte complet",
+    "SENIORPREMIUM": "Billet senior officiel + Audioguide Premium",
+    "SENIOR": "Senior",
+    "STUDENT": "Étudiant UE (identifié)",
+    "CHILDREN": "Enfants"
+  },
+  "DESCRIPTIONS": {
+    "SENIOR": "+65 ans UE",
+    "CHILDREN": "-12 ans"
+  },
+  "SUBTITLE": {
+    "BASICANDMORE": "Tout ce qui est compris dans l’entrée de base, plus :",
+    "PREFERENTSIMPLEANDMORE": "Tout ce qui est compris dans l’entrée préférentielle simple, plus :"
+  },
+  "EXTRAS": {
+    "PREFERRED": "Accès préférentiel sans file d’attente au Real Alcazar",
+    "COMPLETEMAP": "Plan complet du Real Alcazar",
+    "SPPFORWSP": "Assistance par WhatsApp pour les questions",
+    "DWLFORMOBILE": "Téléchargement immédiat sur mobile ou impression",
+    "WALKTOUR": "8 COOL WALKTOUR pour découvrir Séville à votre rythme",
+    "AUDIO&MAPS": "Audio et cartes des WalkTour dans les quartiers les plus authentiques de Séville",
+    "QUEUEDACCESS": "Accès sans file d’attente au Real Alcazar",
+    "AUDIO": "Audioguide officiel (9 langues)",
+    "MAP": "Plan de visite",
+    "ROUTES": "8 itinéraires exclusifs de Séville"
+  },
+  "STRIPEPAYMENT": {
+    "ENTRIES": "Billets pour le Real Alcazar"
+  },
+  "INFORMATIONCONFIRMATION": {
+    "PAID": "Payé",
+    "ALREADYPAID": "Vous avez déjà acheté les billets",
+    "COMPLETEINFORMATION": "Nous avons besoin de quelques informations pour finaliser la procédure et vous envoyer les billets.",
+    "ENTERINFORMATION": "Veuillez entrer maintenant les informations correctes de chaque visiteur",
+    "WARNING": "N'oubliez pas que chaque visiteur doit avoir sa pièce d'identité, car elle sera demandée à l'entrée du Real Alcazar de Séville."
+  },
+  "RESERVATIONHELP": {
+    "NEEDHELP": "Besoin d'aide pour votre réservation ?",
+    "EMAIL": "Par e-mail",
+    "PHONE": "Par téléphone",
+    "HOURS": "Horaires"
+  },
+  "CONFIRMATION": {
+    "SENDDATA": "Envoyez vos informations pour finaliser l'achat"
+  },
+  "VALIDATIONSCHEMA": {
+    "NAME": "Nom obligatoire",
+    "SURNAME": "Prénom obligatoire",
+    "DNI": "Document obligatoire",
+    "BIRTHDAY": "Date de naissance obligatoire",
+    "COUNTRY": "Pays obligatoire"
+  },
+  "FORMCONFIRMATION": {
+    "VISITOR": "Visiteur",
+    "NAME": "Nom",
+    "SURNAME": "Prénom",
+    "DNI": "Identifiant",
+    "BIRTHDAY": "Date de naissance",
+    "COUNTRY": "Pays",
+    "ADVICEDNI": "Peut être un passeport, une carte d'identité ou un document d'identification. Apportez-le, il vous sera demandé à l'entrée."
+  },
+  "OVERLAY": {
+    "LOADING": "Chargement des billets disponibles..."
+  },
+  "INPUTMODAL": {
+    "COMPLETEADULT": "Adulte complet",
+    "TICKETMANY": "Combien de billets ?"
+  }
+}
