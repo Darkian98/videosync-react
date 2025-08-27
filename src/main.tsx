@@ -1,18 +1,17 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { HelmetProvider } from 'react-helmet-async';
-import { Outlet, RouterProvider, createBrowserRouter, Navigate, useParams } from 'react-router';
+import { Outlet, Navigate, useParams, RouterProvider, createBrowserRouter } from 'react-router';
 
 import App from './app';
 import { routesSection } from './routes/sections';
 import i18n from './i18n/config';
 import { I18nextProvider } from 'react-i18next';
-import { CONFIG } from './backOffice/config/global-config';
 import { supportedLanguages } from './config/supportedLanguages';
 
 import 'dayjs/locale/es';
 import 'dayjs/locale/de';
-import 'dayjs/locale/es';
+
 import 'dayjs/locale/fr';
 import 'dayjs/locale/it';
 import 'dayjs/locale/nl';
@@ -42,7 +41,7 @@ if (window.location.pathname === '/') {
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Navigate to="/en/sync" replace />,
+    element: <Navigate to="/en/sync" replace />
   },
   {
     path: '/:lng',

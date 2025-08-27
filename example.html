@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>MasterSync</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+      }
+    </style>
+    <style>
+      body {
+        min-height: max(884px, 100dvh);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-900 text-white">
+    <div class="min-h-screen flex flex-col">
+      <header
+        class="bg-gray-900 bg-opacity-75 backdrop-blur-md fixed top-0 left-0 right-0 z-10 p-4 flex justify-between items-center"
+      >
+        <div>
+          <h1 class="text-xl font-bold tracking-wider">MASTERSYNC</h1>
+          <div class="flex items-center text-sm text-gray-300">
+            <span class="material-icons text-base mr-1">play_circle_outline</span>
+            <span>Bienvenida al Palacio Real</span>
+          </div>
+        </div>
+        <div class="flex items-center">
+          <span class="material-icons text-xl mr-1">language</span>
+          <span class="font-semibold">ESPAÑOL</span>
+          <span class="material-icons">arrow_drop_down</span>
+        </div>
+      </header>
+      <main class="flex-grow flex items-center justify-center relative">
+        <div class="absolute inset-0 z-0">
+          <img
+            alt="Fachada del Palacio Real de Madrid"
+            class="w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOzR9EtNkxIk_1FsBfaZ0wbY4DxvvuDO-BTFGmXkkuMZlWfC-RRhx7x1-nUKyQT2tR7bo6Ox6c4aXMD_ngiJv0eTpe4OyxFkohD0wvRqMRQ3SvF-1YHJP1GhMuyBQTuQaNFjB5t1fmG189itvZtxVZR4pxPyOzvDyE18m6a1EIsj5Oh1efMSHS24vX6wKKoHp8e-POmCcbjBfO0esErxrEkk6kpDGAGMrsTgZGRgQkJW8Ypq1sT-b0b_QgWIq4mTUHqH0wzX0ppQ"
+          />
+          <div class="absolute inset-0 bg-black opacity-40"></div>
+        </div>
+        <div class="relative z-10 flex flex-col items-center">
+          <button
+            class="bg-white bg-opacity-90 p-6 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300 ease-in-out"
+          >
+            <span class="material-icons text-gray-900 text-6xl">play_arrow</span>
+          </button>
+        </div>
+      </main>
+      <footer
+        class="bg-gray-900 bg-opacity-75 backdrop-blur-md fixed bottom-0 left-0 right-0 z-10 p-6 flex justify-center items-center"
+      >
+        <div class="text-center">
+          <p class="text-3xl font-light tracking-widest">GVAM</p>
+          <p class="text-sm font-semibold text-cyan-400 tracking-widest">
+            MOBILE GUIDES <span class="text-white">FOR ALL</span>
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
