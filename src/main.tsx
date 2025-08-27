@@ -54,11 +54,11 @@ const router = createBrowserRouter([
 const root = createRoot(document.getElementById('root')!);
 
 root.render(
-  <StrictMode>
-    <HelmetProvider>
-      <I18nextProvider i18n={i18n} >
-        <RouterProvider router={router} />
-      </I18nextProvider>
-    </HelmetProvider>
-  </StrictMode>
+  // <StrictMode>
+  <HelmetProvider>
+    <I18nextProvider i18n={i18n} >
+      <RouterProvider router={router} />
+    </I18nextProvider>
+  </HelmetProvider>
+  // </StrictMode>
 );
