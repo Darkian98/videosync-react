@@ -18,8 +18,8 @@ const LayoutSection: FC<ILayoutSection> = ({ children }) => {
     const [age, setAge] = useState("10");
     const languages = [
         { value: "10", label: "Español", code: "es-ES" },
-        { value: "20", label: "Inglés", code: "it-IT" },
-        { value: "30", label: "Italiano", code: "en-UK" },
+        { value: "20", label: "Inglés", code: "en-UK" },
+        { value: "30", label: "Italiano", code: "it-IT" },
     ];
 
     const handleChange = (event: SelectChangeEvent) => {

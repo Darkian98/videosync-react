@@ -18,6 +18,7 @@ const Page = () => {
 
     useEffect(() => {
         const video = videoRef.current;
+        console.log("https://videosync-react.vercel.app/es/sync/client/101")
         if (!video) return;
 
         video.addEventListener("play", handlePlay);

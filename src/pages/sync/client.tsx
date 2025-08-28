@@ -54,7 +54,9 @@ const AudioPlayer = ({ language }: any) => {
     const audioRef = useRef<any>(null);
     const [currentTime, setCurrentTime] = useState(0);
     const [duration, setDuration] = useState(0);
-    const firstRender = useRef(true)
+    const firstRender = useRef(true);
+    const userInteracted = useRef(false);
+
     const togglePlay = async () => {
         if (!audioRef.current) return;
 
@@ -69,7 +71,7 @@ const AudioPlayer = ({ language }: any) => {
                     setPlaying(true);
                 } else {
                     setPlaying(true);
-                    setHostPause(true);
+                    setHostPause(false);
                 }
             }
         } else {
@@ -110,8 +112,12 @@ const AudioPlayer = ({ language }: any) => {
             if (audioRef.current) {
                 audioRef.current.currentTime = time;
                 if (action === "play") {
-                    audioRef.current.play();
-                    setPlaying(true);
+                    if (userInteracted.current) {
+                        audioRef.current.play().catch(console.error);
+                        setPlaying(true);
+                    } else {
+                        console.log("El usuario aún no ha interactuado, no se puede reproducir");
+                    }
                 }
                 else {
                     audioRef.current.pause();
@@ -149,6 +155,19 @@ const AudioPlayer = ({ language }: any) => {
         syncAudio();
     }, [language]);
 
+    useEffect(() => {
+        const handleInteraction = () => userInteracted.current = true;
+
+        document.addEventListener("click", handleInteraction, { once: true });
+        document.addEventListener("keydown", handleInteraction, { once: true });
+
+        return () => {
+            document.removeEventListener("click", handleInteraction);
+            document.removeEventListener("keydown", handleInteraction);
+        };
+    }, []);
+
+
     return (
         <>
             <audio ref={audioRef} src={`/test/${language}.mp3`} />
@@ -162,11 +181,11 @@ const AudioPlayer = ({ language }: any) => {
                     </div>
                     :
                     <div className='space-y-3'>
-                        <div className='flex items-center justify-center'>
+                        {!hostPause && <div className='flex items-center justify-center'>
                             <button onClick={togglePlay} className='bg-white rounded-full p-1.5' type='button'>
                                 <StopIcon sx={{ color: "black" }} fontSize='large' />
                             </button>
-                        </div>
+                        </div>}
                         {hostPause && <div className='flex justify-center'>
                             <div className='bg-black/80 text-white w-fit py-2 px-1 rounded-lg'>
                                 El host ha pausado el video
