@@ -33,8 +33,25 @@ const Page = () => {
         <LayoutSyncHost>
 
 
-            <div className="w-full h-full overflow-hidden">
-                <video ref={videoRef} src="/test/video.mp4" controls className="w-full h-full" />
+            <div className="relative w-full h-full overflow-hidden">
+                <video
+                    ref={videoRef}
+                    src="/test/video.mp4"
+                    controls
+                    className="w-full h-full object-cover"
+                />
+                <div className="absolute bottom-12 right-6  z-10">
+                    <img
+                        className="w-16 h-16"
+                        src="/test/qr.png"
+                        alt="QR"
+                    />
+                    <div className="text-center">
+                        Sala 101
+                    </div>
+
+                </div>
+
             </div>
 
         </LayoutSyncHost>
