@@ -59,7 +59,7 @@ const AudioPlayer = ({ language }: any) => {
         if (!audioRef.current) return;
 
         if (audioRef.current.paused) {
-            const res = await fetch(`http://localhost:8000/sync/resync/101`);
+            const res = await fetch(`${import.meta.env.VITE_API_URL}/sync/resync/101`);
             const data = await res.json();
 
             if (audioRef.current) {
@@ -95,7 +95,7 @@ const AudioPlayer = ({ language }: any) => {
     }, []);
 
     useEffect(() => {
-        const es = new EventSource(`http://localhost:8000/sync/client/101`);
+        const es = new EventSource(`${import.meta.env.VITE_API_URL}/sync/client/101`);
 
         es.onmessage = (event) => {
             const { action, time } = JSON.parse(event.data);
@@ -111,6 +111,7 @@ const AudioPlayer = ({ language }: any) => {
                 audioRef.current.currentTime = time;
                 if (action === "play") {
                     audioRef.current.play();
+                    setPlaying(true);
                 }
                 else {
                     audioRef.current.pause();
@@ -129,7 +130,7 @@ const AudioPlayer = ({ language }: any) => {
 
         const syncAudio = async () => {
             if (!audioRef.current) return;
-            const res = await fetch(`http://localhost:8000/sync/resync/101`);
+            const res = await fetch(`${import.meta.env.VITE_API_URL}/sync/resync/101`);
             const data = await res.json();
 
             audioRef.current.src = `/test/${language}.mp3`;
