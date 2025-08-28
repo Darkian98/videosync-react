@@ -161,9 +161,14 @@ const AudioPlayer = ({ language }: any) => {
         document.addEventListener("click", handleInteraction, { once: true });
         document.addEventListener("keydown", handleInteraction, { once: true });
 
+        document.addEventListener("touchstart", handleInteraction, { once: true });
+        document.addEventListener("touchend", handleInteraction, { once: true });
+
         return () => {
             document.removeEventListener("click", handleInteraction);
             document.removeEventListener("keydown", handleInteraction);
+            document.removeEventListener("touchstart", handleInteraction);
+            document.removeEventListener("touchend", handleInteraction);
         };
     }, []);
 
