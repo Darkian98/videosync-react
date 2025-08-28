@@ -6,7 +6,7 @@ const Page = () => {
 
     const sendAction = async (action: "play" | "pause") => {
         if (!videoRef.current) return;
-        await fetch(`http://localhost:8000/sync/101`, {
+        await fetch(`${import.meta.env.VITE_API_URL}/sync/101`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ action, time: videoRef.current.currentTime }),
